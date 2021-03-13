@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CVposledni.Skills">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Dovednosti"
+                VerticalOptions="Start"
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="50"/>
+            <Label Text="Jazyky"
+                       
+                   FontSize="30"                            
+                   Margin="15,10,0,0"
+                   TextColor="Black">
+            </Label>
+
+            <Label Text="o   Angličtina- Úroveň C1 &#10;o 	 Němčina – úrověň B2 &#10;o 	 Francouzsština- začátečník"
+                   Margin="10,0,0,0"></Label>
+            
+            <Label Text="Práce s PC"
+                       
+                   FontSize="30"                            
+                   Margin="15,10,0,0"
+                   TextColor="Black">
+            </Label>
+
+            <Label Text="o   MS Office &#10;o 	 o	C# a Visual Studio &#10;o 	 MatLab o &#10;o 	 Python- základní znalost &#10;o 	 Bower BI &#10;o 	 AutoCAD"
+                   Margin="10,0,0,0"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

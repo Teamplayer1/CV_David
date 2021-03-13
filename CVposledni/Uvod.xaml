@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CVposledni.Uvod">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Životopis"
+                VerticalOptions="Start"
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="50"/>
+
+                <Label 
+                Text="31.3.1998 &#10; +420 732 217 009 &#10; david.hanc10@gmail.com &#10; Dolní Žďár 77 Ostrov 36301 &#10;"
+                VerticalOptions="Start"
+                HorizontalOptions="Center" 
+                   FontSize="20">
+
+
+
+                </Label>
+                <Image Source="fotka.jpg" />
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

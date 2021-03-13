@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CVposledni.Experience">
+    
+
+        <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="Zkušenosti"                 
+                VerticalOptions="Start"
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="50">
+                </Label>
+                <Label Text="Hinton
+                       
+                             
+                   
+                   2020 – 2021"
+                   Margin="15,18,10,10"
+                   TextColor="Black">
+                </Label>
+
+                <Label Text="Asistent stavbyvedoucího
+                   
+                   Komunikace s dodavateli, koordinování práce a výkresů. Administrativní práce. Vyřizování smluv"
+                   Margin="10,0,10,10"></Label>
+                <Label Text="Starty.cz 
+                   
+                   
+                   
+                     2017 – 2018"
+                   Margin="15,10,10,10"
+                   TextColor="Black">
+                </Label>
+
+                <Label Text="Externí autor
+                   
+                   
+                   
+                   Psaní článků na web starty.cz na témata dle výběru se zaměřením na technologie a technologické start-upy. 
+                  Samostatnost a časová preciznost."
+
+                   Margin="10,0,0,0"></Label>
+
+                
+
+                <Label Text="https://starty.cz/author/david-hanc/"
+                       TextType="Html"
+                       x:Name="Starty"
+                       Margin="10,0,0,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped">     </TapGestureRecognizer>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label Text="Věda nás baví
+                       
+                             
+                   
+                   2016 – 2017"
+                   Margin="15,10,10,10"
+                   TextColor="Black">
+                </Label>
+
+                <Label Text="Lektor vědeckých kroužků pro děti
+                   
+                   Vedení vědeckého kroužku pro děti prvního stupně základních škol se zaměřením na jednoduché experimenty. Kominikace s rodiči. Práce o děti. Příprava programu."
+                   Margin="10,0,10,10"></Label>
+
+                <Label Text="Zürich OpenAir festival
+                       
+                             
+                   
+                   2019 (týdenní)"
+                   Margin="15,10,10,10"
+                   TextColor="Black">
+                </Label>
+
+                <Label Text="Zürich OpenAir festival
+                   
+                   
+                   Práce v zahraničí. Práce v organizačním týmu a pomoc s festivalem. Obsluha stánků a zásobování.Komunikace v Aj."
+                   Margin="10,0,10,10"></Label>
+
+                <Label Text="Hackneyfresh London
+                       
+                             
+                   
+                   2018(prázdniny)"
+                   Margin="15,10,10,10"
+                   TextColor="Black">
+                </Label>
+
+                <Label Text=" Práce v Londýně. Zajištění zásobování obsluhy zákazníků a práce na kase. "
+                   Margin="10,0,10,10"></Label>
+
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+   
+</ContentPage>

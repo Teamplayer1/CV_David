@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CVposledni"
+             x:Class="CVposledni.MainPage">
+
+    <FlyoutItem Title="Education"
+               Shell.TabBarIsVisible="False"
+               FlyoutDisplayOptions="AsMultipleItems"
+               
+                >  
+        <ShellContent Title="About" Icon="about.png" IsTabStop="True" ContentTemplate="{DataTemplate local:Uvod}"/>
+        
+
+    </FlyoutItem>
+   
+    <ShellContent Title="Education" Icon="boook.png"  IsTabStop="True" ContentTemplate="{DataTemplate local:Education}" />
+    <ShellContent Title="Experience" Icon="bulp.png" IsTabStop="True" ContentTemplate="{DataTemplate local:Experience}"/>
+    <ShellContent Title="Skills" Icon="skills.png" IsTabStop="True" ContentTemplate="{DataTemplate local:Skills}"/>
+    <ShellContent Title="Interests" Icon="interests.png" IsTabStop="True" ContentTemplate="{DataTemplate local:Interests}"/>
+    <ShellContent Title="End" Icon="skills.png" IsTabStop="True" ContentTemplate="{DataTemplate local:End}"/> 
+    
+    
+   
+</Shell>
+

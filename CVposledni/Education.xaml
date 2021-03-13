@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CVposledni.Education"
+             Title="Vzdělání">
+    <ContentPage.Content>
+        <StackLayout >
+            
+            <Label Text="Vzdělání"                 
+                VerticalOptions="Start"
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="50">
+            </Label>
+            <Label Text="České Vysoké Účení Technické v Praze
+                       
+                             2018 – do teď"
+                   Margin="15,18,10,10"
+                   TextColor="Black">
+                   </Label>
+            
+            <Label Text="Student aktuálně třetího ročníku FD ČVUT se zaměřením na dopravní systémy a telematiku. 
+                       Předměty, které by se na pracovní pozici mohly hodit: Programování, Matematika, Modelování systémů a procesů, Databázové systémy, Teorie grafů, Angličtina"
+                   Margin="10,0,10,10"></Label>
+            <Label Text="Gymnázium Ostrov
+                   
+                   
+                     2009 – 2017"
+                   Margin="15,10,10,10"
+                   TextColor="Black">
+            </Label>
+
+            <Label Text="Všeobecný studijní program s výběrem seminářů: Matematiky, Informatika, Angličtina, Fyzika."
+                   Margin="10,0,10,10"></Label>
+
+            <Label Text="Niesse University
+                   
+                   
+                     2017 – 2018"
+                   Margin="15,10,10,10"
+                   TextColor="Black">
+            </Label>
+
+            <Label Text="Mezinárodní univerzita Niesse – obor IT management
+                   Dokončen 1 semestr studia v angličtině s certifikátem z angličtiny v oboru Business and Economics."
+                   Margin="10,0,10,10"></Label>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

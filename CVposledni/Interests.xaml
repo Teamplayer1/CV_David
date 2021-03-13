@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CVposledni.Interests">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Zájmy"
+                VerticalOptions="Start"
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="50"/>
+            <Label Text="Sport"
+                       
+                   FontSize="30"                            
+                   Margin="15,10,0,0"
+                   TextColor="Black">
+            </Label>
+
+            <Label Text="o   Florbal- Mistr české republiky &#10;o 	 Fotbal &#10;o 	 Golf"
+                   Margin="10,0,0,0"></Label>
+
+            <Label Text="Ostatní"
+                       
+                   FontSize="30"                            
+                   Margin="15,10,0,0"
+                   TextColor="Black">
+            </Label>
+
+            <Label Text="o   Divadlo &#10;o 	 o	Ćetba &#10;o 	 Technologie &#10;o 	 Programování &#10;"
+                   Margin="10,0,0,0"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
