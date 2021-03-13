@@ -25,7 +25,7 @@
                    TextColor="Black">
             </Label>
 
-            <Label Text="o   MS Office &#10;o 	 o	C# a Visual Studio &#10;o 	 MatLab o &#10;o 	 Python- základní znalost &#10;o 	 Bower BI &#10;o 	 AutoCAD"
+            <Label Text="o   MS Office &#10;o 	 	C# a Visual Studio &#10;o 	 MatLab &#10;o 	 Python- základní znalost &#10;o 	 Bower BI &#10;o 	 AutoCAD"
                    Margin="10,0,0,0"></Label>
 
         </StackLayout>

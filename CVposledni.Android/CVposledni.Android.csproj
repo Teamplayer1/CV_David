@@ -88,9 +88,9 @@
     <AndroidResource Include="Resources\mipmap-hdpi\skills.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CVposledni\CVposledni.csproj">
-      <Project>{38AB9FEB-4025-4A16-9C15-1CF59E406205}</Project>
-      <Name>CVposledni</Name>
+    <ProjectReference Include="..\CVposledni\CV_DavidHanc.csproj">
+      <Project>{7EBE1E0E-5BD6-4E94-A6BF-301104A1661E}</Project>
+      <Name>CV_DavidHanc</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

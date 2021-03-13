@@ -4,7 +4,8 @@
              
              x:Class="CVposledni.End">
     <ContentPage.Content>
-        <StackLayout>
+        <ScrollView>
+            <StackLayout>
 
             <Label Text="Místo práce"
                    FontSize="30"
@@ -14,10 +15,21 @@
                     x:Name="Cesta"
                     BackgroundColor="Azure"
                     HorizontalOptions="Center"
-                    Clicked="Cesta_Clicked">
-                
-                
+                    Clicked="Cesta_Clicked"
+                    >
+                        
             </Button>
+
+            <Label Text="Vzdálenost od mého místa bydliště do MEMOSU =  "
+                   x:Name="distance"
+                   HeightRequest="60"
+                   Margin="0,10,0,0"
+                   BackgroundColor="Azure"
+                   HorizontalOptions="Center"
+                   FontSize="20"
+                   TextColor="Black"
+                   FontFamily="TimesNewRoman"/>
+
             <Label Text="Kontaktujte mě emailem"
                    FontSize="30"
                    HorizontalOptions="CenterAndExpand"
@@ -26,7 +38,7 @@
 
             <Entry Text="david.hanc10@gmail.com" Placeholder="Email Adress" x:Name="Email"></Entry>
             <Entry Text="Bereme Vás" Placeholder="Subject" x:Name="Subject"></Entry>
-            <Button Text="Potvrdit" Clicked="Button_Clicked"
+            <Button Text="Poslat email" Clicked="Button_Clicked"
                     BackgroundColor="Azure"
                     HorizontalOptions="Center"
                     Margin="0,3,0,0"></Button>
@@ -38,14 +50,30 @@
 
             <Entry Text="732217009" Placeholder="Telefonní číslo" x:Name="Phonenumber"></Entry>
             <Entry Text="" Placeholder="Obsah Zprávy" x:Name="Sms"></Entry>
-            <Button Text="Potvrdit" 
+            <Button Text="Poslat zprávu" 
                     Clicked="Button_Clicked_1"
                     BackgroundColor="Azure"
                     Margin="0,3,0,0"
                     HorizontalOptions="Center"></Button>
 
+            <Label Text="Odkaz na GitHub"
+                   FontSize="25"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="Black"/>
+
+            <Button Text="Přejít na GitHub" 
+                    x:Name="github"
+                    BackgroundColor="Azure"
+                    Margin="0,5,0,0"
+                    HorizontalOptions="Center"
+                    Clicked="github_Clicked"
+                    ></Button>
+
+
+
 
 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
